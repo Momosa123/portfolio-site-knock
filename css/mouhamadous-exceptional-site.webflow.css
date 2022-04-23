@@ -7976,3 +7976,51 @@ transform:scale3d(0.94, 0.94, 1)
   font-style: italic;
   font-display: swap;
 }
+
+/* Custom code for grid */
+.custom-grid{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center;
+  column-gap: 20px;
+  row-gap:40px
+}
+
+.service-icon{
+  display: inline-block;
+  width: 50px;
+
+}
+
+h3 + p{
+  max-width: 300px;
+}
+
+.custom-grid .grid-item{
+  flex-direction: column;
+  
+}
+
+.custom-grid h3{
+  display: inline;
+}
+
+.small-container{
+  margin-bottom: 10px;
+  display: flex;
+  align-items:center ;
+  gap: 10px;
+}
+
+.custom-button{
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.custom-section{
+  margin-top: 0;
+  padding-top: 0;
+}
