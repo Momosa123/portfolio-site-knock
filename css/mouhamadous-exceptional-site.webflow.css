@@ -1431,8 +1431,12 @@ figcaption {
 
 .portfolio-preview-link {
   text-decoration: none;
+  transform-style: preserve-3d;"
 }
 
+.portfolio-preview-link:hover {
+transform:scale3d(0.94, 0.94, 1)
+}
 .shape-20 {
   position: absolute;
   left: 50px;
@@ -2333,7 +2337,9 @@ figcaption {
   .rich-text ol {
     margin-bottom: 16px;
   }
-
+.portfolio-picture{
+  display: none;
+}
   .rich-text figure {
     margin-bottom: 16px;
   }
