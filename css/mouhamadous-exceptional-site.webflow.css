@@ -511,10 +511,11 @@ figcaption {
 }
 
 .logo {
-  max-height: 32px;
+  max-height: 100px;
 }
 
 .navigation {
+  height: 100px;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
@@ -586,7 +587,7 @@ figcaption {
 .container.cta {
   overflow: visible;
   padding: 80px 120px;
-  border: 1px dashed #000;
+  /* border: 1px dashed #000; */
   border-top-right-radius: 125px;
   border-bottom-left-radius: 125px;
 }
@@ -7985,7 +7986,7 @@ transform:scale3d(0.94, 0.94, 1)
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: center;
   column-gap: 20px;
-  row-gap:40px
+  row-gap:50px
 }
 
 .service-icon{
@@ -8023,4 +8024,8 @@ h3 + p{
 .custom-section{
   margin-top: 0;
   padding-top: 0;
+}
+
+.custom-form-wrapper{
+  padding: 20px;
 }
