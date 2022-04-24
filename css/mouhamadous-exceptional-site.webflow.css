@@ -511,7 +511,7 @@ figcaption {
 }
 
 .logo {
-  max-height: 100px;
+  max-height: 32px;
 }
 
 .navigation {
@@ -8028,4 +8028,27 @@ h3 + p{
 
 .custom-form-wrapper{
   padding: 20px;
+}
+
+/* .shape-6-container{
+  width: 100%;
+  position: relative
+} */
+.custom-shape-6{
+  left: 560px;
+  /* display: block;
+  width: 10%;
+  margin: 0 auto; */
+}
+
+.nav-custom-shape-6{
+  left: 1200px;
+  top:65px
+  /* display: block;
+  width: 10%;
+  margin: 0 auto; */
+}
+
+.custom-container{
+  height: 800px;
 }
