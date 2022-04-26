@@ -1,0 +1,5 @@
+Enlever bouton buy templates pour téléphone
+enlever petite décoration pour téléphone
+ajouter la possibilité de changer de langue
+Mettre à jour les liens des RS
+Rajouter quizzical et faire walkthrough pour les sites en anglais et français
