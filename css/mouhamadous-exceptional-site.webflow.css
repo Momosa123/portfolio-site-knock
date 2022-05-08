@@ -8043,6 +8043,7 @@ transform:scale3d(0.94, 0.94, 1)
   display: block;
   width: 150px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .custom-section{
